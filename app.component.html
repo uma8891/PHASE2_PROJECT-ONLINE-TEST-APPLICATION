@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><b>OnlineTestApplication</b></title>
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <ul class="navbar-nav">
+        <!-- u need to replace href with routerlink so that page does not reloads everytime and increase loading time,it will refresh in both cases -->
+        
+        <li class="nav-item"><a class="nav-link" routerLink="/add">Add candidate</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/list">List Candidates</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="listtopscorer">List Top scorer</a></li>
+      </ul>
+    </nav>
+    <br><br>
+  </main>
+
+  <!-- below line is must else routes will not work -->
+  <!-- this informs angular to update the application view with the component
+of the selected route -->
+  <router-outlet></router-outlet>
+ <br><br> <footer><b>ONLINE TEST APPLICATION</b></footer>
+</body>
+
+</html>
