@@ -1,0 +1,51 @@
+{
+  "Candidates": [
+    {
+      "name": "yuvan",
+      "email": "yuva@gmail.com",
+      "address": "MNG street",
+      "score": "80",
+      "id": 2
+    },
+    {
+      "name": "Manoj",
+      "email": "aaaa@yahoo.com",
+      "address": "ddd",
+      "score": "70",
+      "id": 3
+    },
+    {
+      "name": "uma maheswari",
+      "email": "maheswariu106@gmail.com",
+      "address": "22,Sami Iyar new street",
+      "score": "90",
+      "id": 4
+    }
+  ],
+  "newCandidate": [
+    {
+      "name": "a",
+      "email": "aaaa",
+      "password": "a",
+      "id": 1
+    },
+    {
+      "name": "b",
+      "email": "bbbb",
+      "password": "b",
+      "id": 2
+    },
+    {
+      "name": "Harry",
+      "email": "harry@hh",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "newuserSS",
+      "email": "x",
+      "password": "x",
+      "id": 4
+    }
+  ]
+}
